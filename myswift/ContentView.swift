@@ -1,21 +1,16 @@
-//
-//  ContentView.swift
-//  myswift
-//
-//  Created by Oddbit MBP on 18/07/22.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         Text("Hello, world!")
-            .padding()
+            .padding().foregroundColor(Color.white).background(Color.black)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+        }
     }
 }
