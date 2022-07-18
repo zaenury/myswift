@@ -2,8 +2,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding().foregroundColor(Color.white).background(Color.black)
+        // systemName from https://developer.apple.com/sf-symbols/
+        Image(systemName: "hand.raised")
     }
 }
 
